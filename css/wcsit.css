@@ -1,0 +1,118 @@
+
+@font-face {
+    font-family: HelveticaNeueBold;
+    src: url(../font/HelveticaNeueBold.ttf);
+  }
+  
+@font-face {
+    font-family: GilroyLight;
+    src: url(../font/GilroyLight.ttf);
+  }
+
+  body, p{
+        font-family: GilroyLight;
+        color: #686c67;
+    }
+
+    .h1, .h2, .h3, .h4, .h5, .h6{
+        font-family: HelveticaNeueBold;
+        color: #0061e5;
+    }
+
+.lineDown{
+    width: 100%;
+    text-decoration: underline;
+    border-bottom: solid 2px blue;
+}
+
+.inLine{
+    position: absolute;
+    display: inline-table;
+    color: red;
+    border: solid 10px;
+}
+
+.carousel-item img{
+    width: 100%;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.66)!important;
+}
+.nav-link{
+    color: #c8c8c8;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.textJustified{
+    text-align: justify;
+}
+br{
+    margin-bottom: 12px;
+}
+.bg-lightgrey{
+    background-color: #f6f6f6;
+}
+
+.bg-blue{
+    background-color: #003b51;
+    color: #fff;
+}
+.bg-green{
+    background-color: #006847;
+    color: #fff;
+}
+svg{
+    margin: 8px;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 360px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* First image (Logo. Full height) */
+  .bgimg-1 {
+    background-image: url('../img/parallax1.jpg');
+  }
+  
+  /* Second image (Portfolio) */
+  .bgimg-2 {
+    background-image: url("../img/parallax2.jpg");
+  }
+  
+  /* Third image (Contact) */
+  .bgimg-3 {
+    background-image: url("../img/parallax3.jpg");
+  }
+
+  .screen-dark{
+    background-color: rgba(0,32,64,0.66);
+    width: 100%;
+    height: 360px;
+    z-index: 99;
+}
+
+#social-icon a{
+    text-decoration: none;
+}
+
+#navBarra{
+    padding: 5px 0px;
+}
+
+#img-logo{
+    width: 96px;
+    height: auto;
+}
+#submitButton{
+    border: solid 1px #003b51;
+    background-color: #003b51;
+    color: #fff;
+}
