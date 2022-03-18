@@ -21,7 +21,7 @@ window.onscroll = function() {
 
 
 
-var app = angular.module('todoApp', ['ngRoute']);
+// var app = angular.module('todoApp', ['ngRoute']);
 
 // app.config(function($routeProvider){
 // 	$routeProvider

@@ -12,33 +12,7 @@
     <link rel="stylesheet" href="css/wcsit.css">
     <script src="js/functions.js"></script>
   </head>
-  <body id="top">
-
-    
-<!-- Sección barra de navegación -->
-    <!-- <ul id="navBarra" class="nav navbar-expand-md bg-dark navbar-dark fixed-top shadow justify-content-center">
-        <li class="nav-item w-25">
-            <a class="navbar-brand" href="index.html"><img id="img-logo" src="img/logo.svg"></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#top">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#who">Quienes somos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#service">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#cloud">Cloud</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.inacom.com.mx/" target="_blank">Data Center</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contacto</a>
-        </li>
-      </ul> -->
+  <body id="top" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
 
     <nav id="navBarra" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navDark justify-content-center">
@@ -76,11 +50,6 @@
       
     <div>
       <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-          <!--<ol class="carousel-indicators">
-              <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
-              <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
-              <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
-          </ol>-->
           <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
                   <img src="img/s1.jpg" alt="First slide">
@@ -103,12 +72,14 @@
       </div>
     </div>    
 
+    
 <!-- Sección qioenes somos -->
+
     <section id="who">
 
         <div class="container mb-5">
             <div class="pt-5 pb-4" data-aos="fade-left">
-                <h1 class="h2 text-uppercase mb-4 mt-5">
+                <h1 class="h1 hdr1 text-uppercase mb-4 mt-5">
                     QUIENES<br>
                         SOMOS 
                 </h1> 
@@ -323,18 +294,18 @@
             <div class="container pt-5 pb-2">
                 <div class="row mb-5">
                     <div class="col-sm-12" data-aos="fade-up">
-                        <p class="h2 text-uppercase mb-4 text-center">
-                            Certificaciones
+                        <p class="h1 text-uppercase mb-4 text-center">
+                            PATNERS
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-6 col-md-4">
                         <img src="img/cert-inacom.png" class="imgCert" data-aos="fade-down">
                     </div>
-                    <div class="col">
-                        <img src="img/cert-javanes.png" class="imgCert" data-aos="fade-left">
-                    </div>
-                    <div class="col">
+                    <div class="col-sm-6 col-md-4">
                         <img src="img/cert-redhat.png" class="imgCert" data-aos="fade-right">
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <img src="img/cert-javanes.png" class="imgCert" data-aos="fade-left">
                     </div>
                 </div>
             </div>

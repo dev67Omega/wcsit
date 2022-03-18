@@ -1,9 +1,11 @@
-/* 
 
-Creado/modificado por Miguel Bojorge 
-Marzo de 2022 para WCSIT.MX
-
-*/
+/****************************
+*                           *
+*   Autor: Miguel Bojorge   *
+*   Marzo de 2022           *
+*   WCSIT.MX                *
+*                           *
+****************************/
 
 
 
@@ -15,17 +17,25 @@ Marzo de 2022 para WCSIT.MX
 @font-face {
     font-family: GilroyLight;
     src: url(../font/GilroyLight.ttf);
-  }
+}
 
-  body, p{
-        font-family: GilroyLight;
-        color: #686c67;
-    }
+body, p{
+    font-family: GilroyLight;
+    color: #686c67;
+}
 
-    .h1, .h2, .h3, .h4, .h5, .h6{
-        font-family: HelveticaNeueBold;
-        color: #0061e5;
-    }
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: HelveticaNeueBold;
+    color: #0061e5;
+}
+
+.h1{
+    font-size: 40px;
+}
+
+.h2, .h3, .h4{
+    font-size: 35px;
+}
 
 .lineDown{
     width: 100%;
@@ -68,7 +78,8 @@ h1:after {
 
 #imgVision{
     width: 100%;
-    padding: 15% 0px;
+    position: absolute;
+    bottom: 0;
 }
 
 .imgCert{
@@ -162,11 +173,22 @@ svg{
     color: #fff;
 }
 
+/****************************
+*                           *
+*   Classes para mobile     *
+*                           *
+****************************/
 
 @media screen and (max-width: 992px) {
     h1:after {
         width: 82%;
         top: 86%;
+    }
+
+    #imgVision{
+        width: 100%;
+        position: static;
+        bottom: 0;
     }
 }
 
