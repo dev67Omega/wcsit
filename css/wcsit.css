@@ -1,44 +1,24 @@
 
 @font-face {
-font-family: HelveticaNeueBold;
-src: url(../font/HelveticaNeueBold.ttf);
-}
-
-@font-face {
-font-family: GilroyLight;
-src: url(../font/GilroyLight.ttf);
-}
-
-body, p{
-    font-family: GilroyLight;
-    color: #686c67;
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6{
     font-family: HelveticaNeueBold;
-    color: #0061e5;
-}
-
-h1 {
-    position: relative;
+    src: url(../font/HelveticaNeueBold.ttf);
+  }
+  
+@font-face {
+    font-family: GilroyLight;
+    src: url(../font/GilroyLight.ttf);
   }
 
-h1:after {
-    position: absolute;
-    content: "";
-    display: block;
-    width: 87%;
-    height: 2px;
-    background: #0061e5;
-    right: 0px;
-    top: 88%;
-    z-index: -2;
-}
+  body, p{
+        font-family: GilroyLight;
+        color: #686c67;
+    }
 
-#imgWho{
-    width: 32px;
-    height: auto;
-}
+    .h1, .h2, .h3, .h4, .h5, .h6{
+        font-family: HelveticaNeueBold;
+        color: #0061e5;
+    }
+
 .lineDown{
     width: 100%;
     text-decoration: underline;
@@ -135,31 +115,4 @@ svg{
     border: solid 1px #003b51;
     background-color: #003b51;
     color: #fff;
-}
-
-@media screen and (max-width: 992px) {
-    h1:after {
-        width: 82%;
-        top: 86%;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    h1:after {
-        width: 78%;
-        top: 89%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    h1:after {
-        width: 74%;
-        top: 86%;
-    }
-}@media screen and (max-width: 400px) {
-    h1:after {
-        width: 70%;
-        top: 86%;
-    }
 }
