@@ -5,14 +5,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg"/>
     <!-- Bootstrap CSS v5.0.2 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/wcsit.css">
-    <link rel="icon" type="image/jpg" href="img/favicon.jpg"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/functions.js"></script>
   </head>
-  <body id="top">
+  <body ng-app="myApp" id="top">
 
     
 <!-- Sección barra de navegación -->
@@ -41,7 +42,7 @@
       </ul> -->
 
 
-    <nav id="navBarra" class="navbar fixed-top navbar-expand-lg navbar-dark justify-content-center">
+    <nav id="navBarra" class="navbar fixed-top navbar-expand-lg bg-dark navDark justify-content-center">
         <div class="container-md pe-5 ps-5">
           <a class="navbar-brand w-25" href="index.html">
             <img src="img/logo.svg">
@@ -107,14 +108,13 @@
 <!-- Sección qioenes somos -->
     <section id="who">
 
-        <div class="container pt-5 pb-5">
-            <div class="pt-5 pb-4" data-aos="fade-left">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-flag" viewBox="0 0 16 16">
-                    <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21.294 21.294 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21.317 21.317 0 0 0 14 7.655V1.222z"/>
-                </svg>
-                <span class="h2 text-uppercase mb-4 mt-5 border-bottom">
-                    QUIENES SOMOS
-                </span>   
+        <div class="container pt-2 pb-5">
+            <div class="pt-5 pb-2" data-aos="fade-left">
+                <h1 class="h2 text-uppercase mb-4 mt-5">
+                    QUIENES<br>
+                        SOMOS
+                    </span>   
+                </h1>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-6" data-aos="fade-right">
@@ -136,11 +136,9 @@
                 </div>
             </div>
                 <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-6" data-aos="fade-down">
-                        <p class="h2 text-uppercase mb-4 text-center mt-5">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lightning-charge" viewBox="0 0 16 16">
-                                <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41 4.157 8.5z"/>
-                            </svg>
+                    <div class="col-sm-12 col-md-12 col-lg-3 mt-5" data-aos="fade-down">
+                        <img src="img/MISION@4x-85.png" id="imgWho">
+                        <p class="h2 text-uppercase mb-4">
                             Misión
                         </p>
                         <p class="textJustified">
@@ -149,11 +147,9 @@
                         </p>
                     </div>
 
-                    <div class="col-sm-12 col-md-12 col-lg-6" data-aos="fade-right">
-                        <p class="h2 text-uppercase mb-4 text-center mt-5">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-sunglasses" viewBox="0 0 16 16">
-                                <path d="M3 5a2 2 0 0 0-2 2v.5H.5a.5.5 0 0 0 0 1H1V9a2 2 0 0 0 2 2h1a3 3 0 0 0 3-3 1 1 0 1 1 2 0 3 3 0 0 0 3 3h1a2 2 0 0 0 2-2v-.5h.5a.5.5 0 0 0 0-1H15V7a2 2 0 0 0-2-2h-2a2 2 0 0 0-1.888 1.338A1.99 1.99 0 0 0 8 6a1.99 1.99 0 0 0-1.112.338A2 2 0 0 0 5 5H3zm0 1h.941c.264 0 .348.356.112.474l-.457.228a2 2 0 0 0-.894.894l-.228.457C2.356 8.289 2 8.205 2 7.94V7a1 1 0 0 1 1-1z"/>
-                            </svg>
+                    <div class="col-sm-12 col-md-12 col-lg-3 mt-5" data-aos="fade-right">
+                        <img src="img/VISION@4x-85.png" id="imgWho">
+                        <p class="h2 text-uppercase mb-4">
                             Visión
                         </p>
                         <p class="textJustified">
@@ -161,6 +157,10 @@
                             en todo momento, maximizando la productividad y simplificando la
                             operación de nuestros clientes.
                         </p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-6" data-aos="fade-right">
+                        <img src="img/SeccioÌn MuÌltiples soluciones.jpg" class="mt-5 pt-4" style="width: 100%;">
                     </div>
                 </div> 
         </div>
@@ -356,7 +356,8 @@
 
                     <div class="col-sm-12 col-md-12 col-lg-6 mb-5">
 
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        
+                        <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN">
 
                             <div class="mb-3" data-aos="fade-right">
                               <input class="form-control" id="name" type="text" placeholder="Nombre y Apellido" data-sb-validations="required" />
@@ -396,7 +397,66 @@
                               <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button>
                             </div>
                         
+                        </form> -->
+
+                        <form id="formContact" name="myForm"  novalidate>
+                            <div class="mb-3 form-floating">
+                              <input type="text" class="form-control" id="floatingWork1" name="nameUserContact" ng-model="user.nameUserCntact" required>
+                              <label for="floatingWork" >*Nombre</label>
+                            </div>
+                            <div class="mb-3 form-floating">
+                              <input type="email" class="form-control" id="floatingWork2" name="mailUserContact" ng-model="user.mailUserContact" required>
+                              <label for="floatingWork" >*Correo Electronico</label>
+                            </div>
+                            <div class="mb-3 form-floating">
+                              <input type="text" class="form-control" id="floatingWork3" name="telUserContact" ng-model="user.telUserContact" required>
+                              <label for="floatingWork" >*T&eacute;lefono</label>
+                            </div>
+                            <div class="mb-3 form-floating">
+                              <input type="text" class="form-control" id="floatingWork4" name="empUserContact" ng-model="user.empUserContact" required>
+                              <label for="floatingWork" >*Empresa</label>
+                            </div>
+                              <div class="mb-3 form-">
+                                <textarea class="form-control" placeholder="*Comentarios" id="comments" style="height: 100px"  name="bodyMsgContact" ng-model="user.bodyMsgContact" required></textarea>
+                                <!-- <label for="comments">*Comentarios.</label> -->
+                              </div>
+                              <div id="emailHelp" class="form-text">Los campos con (*) son obliatorios.</div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label"  id="linkPrivacy" for="exampleCheck1">Acepto terminos de <a href="src/pdfs/avisoPrivacidad.pdf" target="_blank">privacidad</a></label>
+                            </div>
+                            <div class=" form-group">
+                              <div class="row">
+                                <div class="col-2 ">
+                                  <!-- ng-click="sendMail(user)" -->
+                                  <button id="go" ng-disabled="myForm.$invalid" ng-click="sendMail(user)"  class="btn btn-primary btn-lg btn-block">Enviar</button>
+                                </div>
+                                <div class="col-10">
+                                  <div class="alert alert-danger" role="alert" ng-show="myForm.nameUserContact.$dirty && myForm.nameUserContact.$invalid">
+                                    <span  ng-show="myForm.nameUserContact.$error.required">Ingrese su nombre.</span>
+                                  </div>
+                                  <div class="alert alert-danger" role="alert" ng-show="myForm.telUserContact.$dirty && myForm.telUserContact.$invalid">
+                                    <span ng-show="myForm.telUserContact.$error.required">Ingrese su número teléfonico.</span>
+                                  </div>
+                                  <div class="alert alert-danger" role="alert" ng-show="myForm.mailUserContact.$dirty && myForm.mailUserContact.$invalid">
+                                    <span ng-show="myForm.mailUserContact.$error.required">Ingrese una dirección de correo.</span>
+                                    <span ng-show="myForm.mailUserContact.$error.email">Ingrese una dirección de correo valida.</span>
+                                  </div>
+                                  <div class="alert alert-danger" role="alert" ng-show="myForm.bodyMsgContact.$dirty && myForm.bodyMsgContact.$invalid">
+                                    <span ng-show="myForm.bodyMsgContact.$error.required">Escriba su mensaje.</span>
+                                  </div>
+                                  <div id="para" class="alert alert-success" role="success" ng-show="myForm.$submitted" >
+                                    <span >Gracias su mensaje se envio exitosamente</span>
+                                  </div>
+                                  <!-- <div class="alert alert-danger text-center" >
+                                    <button type="button" class="close" ng-click="clearMsg()"><span aria-hidden="true">&times;</span></button>
+                                    {{ errorMsg }}
+                                  </div> -->
+                                </div>
+                              </div>
+                            </div>
                           </form>
+
  
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6 mb-5" data-aos="fade">
@@ -452,19 +512,28 @@
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         
     <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
-    <script>
-        var triggerEl = document.querySelector('#s a')
-        bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
-    </script>
+
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- <script>
+        var triggerEl = document.querySelector('#s a')
+        bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+    </script> -->
+
     <script>
         AOS.init();
     </script>
 
+    <script>
+        $('#go').click(function(){
+          $('#showMsg').fadeIn().delay(3000).fadeOut();
+        });
+  
+        
+      </script>
   </body>
 </html>
 
