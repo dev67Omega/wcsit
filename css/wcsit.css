@@ -62,6 +62,21 @@ h1:after {
     height: auto;
 }
 
+#imgCity{
+    width: 100%;
+}
+
+#imgVision{
+    width: 100%;
+    padding: 15% 0px;
+}
+
+.imgCert{
+    width: 100%;
+    height: auto;
+    margin: 16px;
+}
+
 .carousel-item img{
     width: 100%;
 }
