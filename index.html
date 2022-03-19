@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/wcsit.css">
     <script src="js/functions.js"></script>
   </head>
-  <body id="top" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <body id="top">
 
 
     <nav id="navBarra" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navDark justify-content-center">
@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navLink">
                 <li onclick="closeMenu();" class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#top">Home</a>
+                    <a class="nav-link" aria-current="page" href="#top">Home</a>
                 </li>
                 <li onclick="closeMenu();" class="nav-item" id="navLink">
                     <a class="nav-link" href="#who">Quienes somos</a>
@@ -72,6 +72,11 @@
       </div>
     </div>    
 
+    <a onclick="topFunction()" class="button" id="topBtn" title="Regresar a arriba">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        </svg>
+    </a>     
     
 <!-- Sección qioenes somos -->
 
@@ -141,7 +146,7 @@
     
     <!-- Sección servicios -->
     <section id="services">
-        <div class="container  pt-5 pb-5 mt-5 mb-5 lightgrey">
+        <div class="container pt-5 mt-5 lightgrey">
             <div class="row">
                 <div class="col-sm-12"data-aos="fade">
                     <p class="h1 text-uppercase pt-5 mb-4 text-center">
@@ -156,11 +161,10 @@
                         día de tu empresa y te ayudaremos a que esto sea posible.
                     </p>
                 </div>
-                <div class="col-sm-12 col-lg-4" data-aos="fade">
+                <div class="col-sm-12 col-lg-4 pb-3" data-aos="fade">
                     <img src="img/ser-services.jpg" id="imgCity">
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-sm-12 col-lg-6" data-aos="fade-left">
                     <ul>
@@ -274,7 +278,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-lg-6" data-aos="fade-right">
-                    <p class="h4 text-uppercase mb-4">
+                    <p class="h4 text-uppercase pt-4 mb-4">
                         Múltiples soluciones
                     </p>
                     <p class="textJustified mb-5">
@@ -320,13 +324,13 @@
 
             <div class="row">
                 <div class="col-sm-6 col-md-4">
+                    <img src="img/cert-javanes.png" class="imgCert" data-aos="fade-left">
+                </div>
+                <div class="col-sm-6 col-md-4">
                     <img src="img/cert-inacom.png" class="imgCert" data-aos="fade-down">
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <img src="img/cert-redhat.png" class="imgCert" data-aos="fade-right">
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img src="img/cert-javanes.png" class="imgCert" data-aos="fade-left">
                 </div>
             </div>
         </div>

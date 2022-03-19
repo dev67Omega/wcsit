@@ -103,6 +103,34 @@ h1:after {
 .textJustified{
     text-align: justify;
 }
+
+/*Usado para boto "hacia arriba"*/
+#topBtn{
+    width: 60px;
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    z-index: 99;
+    background-color: #003b51;
+    color: #fff;
+    border-radius: 8px;
+    border: solid 1px #003b51;
+}
+
+#topBtn svg{
+    width: 32px;
+    height: auto;
+}
+
+#topBtn:hover {
+    background-color: #fff;
+    color: #203649;
+  }
+
+
+
 br{
     margin-bottom: 12px;
 }
