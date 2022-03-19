@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1919.9998"
+   height="30"
+   viewBox="0 0 507.99995 7.9374999"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="bg-header.svg"
+   inkscape:export-filename="C:\Users\Leviathan\web\wcsit-web\img\bg-header.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     width="1920px"
+     inkscape:snap-global="false"
+     inkscape:zoom="1"
+     inkscape:cx="132"
+     inkscape:cy="39.5"
+     inkscape:window-width="781"
+     inkscape:window-height="711"
+     inkscape:window-x="250"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1368">
+      <rect
+         style="fill:#00ffff;fill-opacity:0.5;fill-rule:evenodd;stroke:none;stroke-width:0.283991"
+         id="rect1370"
+         width="52.916668"
+         height="7.9375"
+         x="227.54167"
+         y="9.260417" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-9.260417)">
+    <path
+       style="fill:none;fill-opacity:0.5;stroke:#0061e5;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       d="M 507.49994,9.5250005 H 32.701566"
+       id="path957" />
+  </g>
+</svg>
