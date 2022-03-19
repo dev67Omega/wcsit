@@ -59,7 +59,7 @@ h1:after {
     position: absolute;
     content: "";
     display: block;
-    width: 87%;
+    width: 80%;
     height: 2px;
     background: #0061e5;
     right: 0px;
@@ -85,7 +85,7 @@ h1:after {
 .imgCert{
     width: 100%;
     height: auto;
-    margin: 16px;
+    padding: 16px;
 }
 
 .carousel-item img{
@@ -128,8 +128,6 @@ h1:after {
     background-color: #fff;
     color: #203649;
   }
-
-
 
 br{
     margin-bottom: 12px;
@@ -209,7 +207,7 @@ svg{
 
 @media screen and (max-width: 992px) {
     h1:after {
-        width: 82%;
+        width: 72%;
         top: 86%;
     }
 
@@ -223,19 +221,19 @@ svg{
 
 @media screen and (max-width: 768px) {
     h1:after {
-        width: 78%;
+        width: 68%;
         top: 89%;
     }
 }
 
 @media screen and (max-width: 480px) {
     h1:after {
-        width: 74%;
+        width: 60%;
         top: 86%;
     }
 }@media screen and (max-width: 400px) {
     h1:after {
-        width: 70%;
+        width: 55%;
         top: 86%;
     }
 }

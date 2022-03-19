@@ -9,21 +9,25 @@ window.onscroll = function() {
   scrollFunction();
 };
 
-function scrollNav() {
 
+function scrollNav() {
+  var carH = document.getElementById("imgAlto").height;
+  var h = carH;
   var navPrincipal = document.getElementById("navBarra");
-  if (document.body.scrollTop > 768 || document.documentElement.scrollTop > 768) {
+  if (document.body.scrollTop > h || document.documentElement.scrollTop > h) {
     navPrincipal.classList.remove("navDark");
   } else {
     navPrincipal.classList.add("navDark");
   }
 }
 
-  
+ 
  function scrollFunction() {
+  var carH = document.getElementById("imgAlto").height;
+  var h = carH;
     var topbutton = document.getElementById("topBtn");
 
-    if (document.body.scrollTop > 768 || document.documentElement.scrollTop > 768) {
+    if (document.body.scrollTop > h || document.documentElement.scrollTop > h) {
       topbutton.style.display = "block";
     } else {
       topbutton.style.display = "none";
