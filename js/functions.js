@@ -34,6 +34,23 @@ function scrollFunction() {
 
 // Cuando se de click en el boton nos lleva al tope
 function topFunction() {
-    document.body.scrollTop = 10; // For Safari
-    document.documentElement.scrollTop = 10; // Para Chrome, Firefox, IE y Opera
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE y Opera
 }
+
+/*  Efectos onscroll    */
+window.addEventListener('scroll', function() {
+    let elements = document.getElementsByClassName('scroll-content');
+    let screenSize = window.innerHeight;
+
+    for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+
+        if (element.getBoundingClientRect().top < screenSize) {
+            element.classList.add('visible');
+        } else {
+            element.classList.remove('visible');
+        }
+
+    }
+});
