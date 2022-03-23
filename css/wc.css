@@ -53,7 +53,8 @@ li {
 }
 
 .center {
-    margin-left and margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center!important;
 }
 
@@ -185,10 +186,13 @@ li {
     .screen-dark {
         height: 256px;
     }
-    .newSection {
-        padding: 2em 0px 3em 0px;
-    }
     .imgCert {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .newSection {
+        padding: 4.5em 0px 3em 0px;
     }
 }
