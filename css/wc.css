@@ -191,27 +191,9 @@ li {
 *                           *
 ****************************/
 
-.fadeTop {
-    opacity: 0;
-    transform: translate(0, 10vh);
-    transition: all 1.25s;
-}
-
-.fadeRight {
-    opacity: 0;
-    transform: translate(10vh, 0vh);
-    transition: all 1.25s;
-}
-
-.fadeLeft {
-    opacity: 0;
-    transform: translate(-10vh, 0vh);
-    transition: all 1.25s;
-}
-
 .fadeIn {
     opacity: 0;
-    transition: all 1.25s;
+    transition: all 2s;
 }
 
 .visible {
@@ -238,5 +220,8 @@ li {
 @media screen and (max-width: 576px) {
     .newSection {
         padding: 4.5em 0px 3em 0px;
+    }
+    h2 {
+        font-size: 18px;
     }
 }
