@@ -37,6 +37,11 @@ h2 {
     z-index: -99;
 }
 
+header-bg2 {
+    background: url(../img/bg-header.svg) bottom right no-repeat;
+    z-index: -99;
+}
+
 p,
 li {
     font-family: GilroyLight;
